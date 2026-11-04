@@ -1,0 +1,41 @@
+text,category,expected_flag
+I was harassed by my manager for months and HR did nothing.,survivor,0
+A man followed me home last night and I was terrified.,survivor,0
+I'm a woman in tech and I get talked over in every meeting.,survivor,0
+He groped me on the metro and nobody said a word.,survivor,0
+"As a survivor of domestic abuse, I know how hard it is to leave.",survivor,0
+My coworker kept commenting on my body and I finally reported him.,survivor,0
+"I was told to smile more at work because I'm a girl, and it still makes me angry.",survivor,0
+"Women in my family were never allowed to inherit anything, and I'm still fighting that.",survivor,0
+I got catcalled on my way to school today and I hate that it's normal.,survivor,0
+"My ex used to call me worthless every day, and it took years to believe I wasn't.",survivor,0
+"Sexual harassment at my last job made me quit, and I'm still dealing with it.",survivor,0
+I was the only woman on the team and they treated me like an assistant.,survivor,0
+Women are too emotional to be good leaders.,subtle_sexism,1
+Girls just aren't wired for math and engineering.,subtle_sexism,1
+"A woman's place is in the kitchen, not the boardroom.",subtle_sexism,1
+She probably only got the promotion because of how she looks.,subtle_sexism,1
+"Women should stop complaining about harassment, it's just a compliment.",subtle_sexism,1
+"Honestly men are naturally smarter, that's just science.",subtle_sexism,1
+"No point hiring women, they'll just leave to have kids.",subtle_sexism,1
+"Female bosses are always difficult, I'd never work for one.",subtle_sexism,1
+Women drivers are a danger on the road.,subtle_sexism,1
+"She's too bossy, a real woman would be softer.",subtle_sexism,1
+"Women belong at home raising children, not taking men's jobs.",subtle_sexism,1
+"Feminists just want attention, nobody is actually being harassed.",subtle_sexism,1
+I'm a proud woman and a software engineer.,identity_neutral,0
+My sister is a woman who runs a bakery in the city.,identity_neutral,0
+Women's cricket is getting more viewers every year.,identity_neutral,0
+The panel had three women and two men talking about climate policy.,identity_neutral,0
+Mothers deserve better parental leave policies.,identity_neutral,0
+He is a father of two and coaches girls' football.,identity_neutral,0
+"Our new CTO is a woman, and the team is excited.",identity_neutral,0
+Men's mental health deserves more attention too.,identity_neutral,0
+"You are a worthless idiot and everyone hates you.",overt_abuse,1
+"Shut up, you stupid idiot, nobody wants your opinion.",overt_abuse,1
+"I hope you get fired, you pathetic loser.",overt_abuse,1
+"Go away, you disgusting moron.",overt_abuse,1
+You're a complete waste of space.,overt_abuse,1
+What a dumb useless clown.,overt_abuse,1
+"Nobody likes you, you pathetic freak.",overt_abuse,1
+You are trash and so is everything you write.,overt_abuse,1

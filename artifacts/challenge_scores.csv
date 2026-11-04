@@ -1,0 +1,41 @@
+text,category,expected_flag,baseline,bert,bert_fixed
+I was harassed by my manager for months and HR did nothing.,survivor,0,0.02368147059714411,0.017951746,0.0038769266
+A man followed me home last night and I was terrified.,survivor,0,0.0787236718575309,0.04142348,0.0049919616
+I'm a woman in tech and I get talked over in every meeting.,survivor,0,0.06996006440099058,0.014364658,0.0025909794
+He groped me on the metro and nobody said a word.,survivor,0,0.05165471959850145,0.020196635,0.006917242
+"As a survivor of domestic abuse, I know how hard it is to leave.",survivor,0,0.032079661630943494,0.014461764,0.003524341
+My coworker kept commenting on my body and I finally reported him.,survivor,0,0.019342831768195998,0.014447852,0.00498227
+"I was told to smile more at work because I'm a girl, and it still makes me angry.",survivor,0,0.016602829682873927,0.013663131,0.0029694452
+"Women in my family were never allowed to inherit anything, and I'm still fighting that.",survivor,0,0.06473896732508508,0.012970387,0.0031726826
+I got catcalled on my way to school today and I hate that it's normal.,survivor,0,0.06821563607522128,0.014813884,0.0058767386
+"My ex used to call me worthless every day, and it took years to believe I wasn't.",survivor,0,0.032596299798301136,0.7589575,0.8941904
+"Sexual harassment at my last job made me quit, and I'm still dealing with it.",survivor,0,0.2249503749593476,0.05014425,0.015633564
+I was the only woman on the team and they treated me like an assistant.,survivor,0,0.07630935016807007,0.0111688115,0.0033179715
+Women are too emotional to be good leaders.,subtle_sexism,1,0.04000096997994287,0.039564554,0.003649987
+Girls just aren't wired for math and engineering.,subtle_sexism,1,0.03937986136020307,0.046681482,0.0061212815
+"A woman's place is in the kitchen, not the boardroom.",subtle_sexism,1,0.039052093751208494,0.009504082,0.0024822769
+She probably only got the promotion because of how she looks.,subtle_sexism,1,0.03161241666715227,0.010130413,0.0029868432
+"Women should stop complaining about harassment, it's just a compliment.",subtle_sexism,1,0.0655937232292841,0.045141645,0.0038996208
+"Honestly men are naturally smarter, that's just science.",subtle_sexism,1,0.24162011316306267,0.028598359,0.0049725967
+"No point hiring women, they'll just leave to have kids.",subtle_sexism,1,0.050384763672351174,0.017917344,0.0027846089
+"Female bosses are always difficult, I'd never work for one.",subtle_sexism,1,0.03443610562149605,0.014813884,0.0040072887
+Women drivers are a danger on the road.,subtle_sexism,1,0.07890961453935019,0.13184245,0.027091904
+"She's too bossy, a real woman would be softer.",subtle_sexism,1,0.06275079825244677,0.023916386,0.0035174883
+"Women belong at home raising children, not taking men's jobs.",subtle_sexism,1,0.07176283751178568,0.026733862,0.0030933863
+"Feminists just want attention, nobody is actually being harassed.",subtle_sexism,1,0.14697854819425943,0.12683924,0.012053778
+I'm a proud woman and a software engineer.,identity_neutral,0,0.1273081324449143,0.013888677,0.0029292416
+My sister is a woman who runs a bakery in the city.,identity_neutral,0,0.04668158894127525,0.012515857,0.00283385
+Women's cricket is getting more viewers every year.,identity_neutral,0,0.09921433946472663,0.011136502,0.005458662
+The panel had three women and two men talking about climate policy.,identity_neutral,0,0.07016584886191733,0.008796121,0.0035936027
+Mothers deserve better parental leave policies.,identity_neutral,0,0.03622686097209847,0.012710447,0.003692853
+He is a father of two and coaches girls' football.,identity_neutral,0,0.07508766912349558,0.023153413,0.011331755
+"Our new CTO is a woman, and the team is excited.",identity_neutral,0,0.10194090029032062,0.012100386,0.0024486529
+Men's mental health deserves more attention too.,identity_neutral,0,0.11761797429276251,0.016625078,0.004895881
+You are a worthless idiot and everyone hates you.,overt_abuse,1,0.953057052541056,0.94994867,0.9708264
+"Shut up, you stupid idiot, nobody wants your opinion.",overt_abuse,1,0.9997649333848816,0.9527942,0.9709644
+"I hope you get fired, you pathetic loser.",overt_abuse,1,0.9857623088060677,0.9425596,0.9700135
+"Go away, you disgusting moron.",overt_abuse,1,0.9782228692689358,0.9488225,0.9712657
+You're a complete waste of space.,overt_abuse,1,0.31596121495477264,0.52501684,0.57156485
+What a dumb useless clown.,overt_abuse,1,0.9993809253322734,0.9523531,0.9713746
+"Nobody likes you, you pathetic freak.",overt_abuse,1,0.9516017128414576,0.9462003,0.9708817
+You are trash and so is everything you write.,overt_abuse,1,0.27205433178615107,0.87380826,0.9640178

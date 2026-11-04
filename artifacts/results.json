@@ -1,0 +1,143 @@
+{
+  "baseline": {
+    "by_set": {
+      "female_mention": {
+        "n": 5264,
+        "toxic_rate": 0.14019756838905775,
+        "auc": 0.8411465163038727,
+        "false_positive_rate": 0.011268228015908087,
+        "false_negative_rate": 0.8062330623306233
+      },
+      "male_mention": {
+        "n": 4390,
+        "toxic_rate": 0.15968109339407746,
+        "auc": 0.8415768589889594,
+        "false_positive_rate": 0.01192735158579561,
+        "false_negative_rate": 0.7945791726105563
+      },
+      "overall": {
+        "n": 30000,
+        "toxic_rate": 0.07723333333333333,
+        "auc": 0.8798747740757153,
+        "false_positive_rate": 0.0025286276776360942,
+        "false_negative_rate": 0.8187311178247734
+      }
+    },
+    "challenge": {
+      "identity_neutral": {
+        "n": 8,
+        "mean_score": 0.08428041429893884,
+        "flag_rate": 0.0
+      },
+      "overt_abuse": {
+        "n": 8,
+        "mean_score": 0.8069756686144495,
+        "flag_rate": 0.75
+      },
+      "subtle_sexism": {
+        "n": 12,
+        "mean_score": 0.07520682049521189,
+        "flag_rate": 0.0
+      },
+      "survivor": {
+        "n": 12,
+        "mean_score": 0.06323798982185047,
+        "flag_rate": 0.0
+      }
+    }
+  },
+  "bert": {
+    "by_set": {
+      "female_mention": {
+        "n": 5264,
+        "toxic_rate": 0.14019756838905775,
+        "auc": 0.8998836293046978,
+        "false_positive_rate": 0.0273972602739726,
+        "false_negative_rate": 0.540650406504065
+      },
+      "male_mention": {
+        "n": 4390,
+        "toxic_rate": 0.15968109339407746,
+        "auc": 0.8982458935440174,
+        "false_positive_rate": 0.029818378964489023,
+        "false_negative_rate": 0.5378031383737518
+      },
+      "overall": {
+        "n": 30000,
+        "toxic_rate": 0.07723333333333333,
+        "auc": 0.9366513676299268,
+        "false_positive_rate": 0.01719466820792544,
+        "false_negative_rate": 0.47259387138541215
+      }
+    },
+    "challenge": {
+      "identity_neutral": {
+        "n": 8,
+        "mean_score": 0.013865809887647629,
+        "flag_rate": 0.0
+      },
+      "overt_abuse": {
+        "n": 8,
+        "mean_score": 0.8864379525184631,
+        "flag_rate": 1.0
+      },
+      "subtle_sexism": {
+        "n": 12,
+        "mean_score": 0.04347364604473114,
+        "flag_rate": 0.0
+      },
+      "survivor": {
+        "n": 12,
+        "mean_score": 0.0820470079779625,
+        "flag_rate": 0.08333333333333333
+      }
+    }
+  },
+  "bert_fixed": {
+    "by_set": {
+      "female_mention": {
+        "n": 5264,
+        "toxic_rate": 0.14019756838905775,
+        "auc": 0.900700948569362,
+        "false_positive_rate": 0.0077330976579761375,
+        "false_negative_rate": 0.6897018970189702
+      },
+      "male_mention": {
+        "n": 4390,
+        "toxic_rate": 0.15968109339407746,
+        "auc": 0.901121582497064,
+        "false_positive_rate": 0.008945513689346707,
+        "false_negative_rate": 0.6861626248216833
+      },
+      "overall": {
+        "n": 30000,
+        "toxic_rate": 0.07723333333333333,
+        "auc": 0.9386069498736942,
+        "false_positive_rate": 0.011559440812050717,
+        "false_negative_rate": 0.5364695727233492
+      }
+    },
+    "challenge": {
+      "identity_neutral": {
+        "n": 8,
+        "mean_score": 0.004648062400519848,
+        "flag_rate": 0.0
+      },
+      "overt_abuse": {
+        "n": 8,
+        "mean_score": 0.9201136231422424,
+        "flag_rate": 1.0
+      },
+      "subtle_sexism": {
+        "n": 12,
+        "mean_score": 0.006388422101736069,
+        "flag_rate": 0.0
+      },
+      "survivor": {
+        "n": 12,
+        "mean_score": 0.07933703809976578,
+        "flag_rate": 0.08333333333333333
+      }
+    }
+  }
+}

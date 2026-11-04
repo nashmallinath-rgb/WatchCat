@@ -1,0 +1,521 @@
+{
+  "baseline": [
+    {
+      "threshold": 0.05,
+      "female_mention_harmless_flagged": 0.5819708351745471,
+      "male_mention_harmless_flagged": 0.6072106261859582,
+      "overall_harmless_flagged": 0.40071524040024564,
+      "overall_toxic_missed": 0.09710832973672853,
+      "survivor_flagged": 0.5833333333333334,
+      "subtle_sexism_missed": 0.4166666666666667
+    },
+    {
+      "threshold": 0.1,
+      "female_mention_harmless_flagged": 0.28303137428192665,
+      "male_mention_harmless_flagged": 0.3212252642992681,
+      "overall_harmless_flagged": 0.14030271285626558,
+      "overall_toxic_missed": 0.2671558049201554,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 0.8333333333333334
+    },
+    {
+      "threshold": 0.15,
+      "female_mention_harmless_flagged": 0.15996464869642069,
+      "male_mention_harmless_flagged": 0.18758471130387638,
+      "overall_harmless_flagged": 0.0650941010728606,
+      "overall_toxic_missed": 0.3992231333621062,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 0.9166666666666666
+    },
+    {
+      "threshold": 0.2,
+      "female_mention_harmless_flagged": 0.09566946531153336,
+      "male_mention_harmless_flagged": 0.11358091623746272,
+      "overall_harmless_flagged": 0.03536466423436766,
+      "overall_toxic_missed": 0.5088476478204574,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 0.9166666666666666
+    },
+    {
+      "threshold": 0.25,
+      "female_mention_harmless_flagged": 0.06429518338488732,
+      "male_mention_harmless_flagged": 0.07644348061805367,
+      "overall_harmless_flagged": 0.02127659574468085,
+      "overall_toxic_missed": 0.588260681916271,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "female_mention_harmless_flagged": 0.043747238179407864,
+      "male_mention_harmless_flagged": 0.05394415830848468,
+      "overall_harmless_flagged": 0.01314886392370769,
+      "overall_toxic_missed": 0.6568839015968926,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "female_mention_harmless_flagged": 0.03137428192664605,
+      "male_mention_harmless_flagged": 0.03686635944700461,
+      "overall_harmless_flagged": 0.00885019687172633,
+      "overall_toxic_missed": 0.7099697885196374,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "female_mention_harmless_flagged": 0.02275740167918692,
+      "male_mention_harmless_flagged": 0.02385470317159122,
+      "overall_harmless_flagged": 0.005599104143337066,
+      "overall_toxic_missed": 0.7505394907207596,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "female_mention_harmless_flagged": 0.01657092355280601,
+      "male_mention_harmless_flagged": 0.017619951206288967,
+      "overall_harmless_flagged": 0.003395585738539898,
+      "overall_toxic_missed": 0.7876564523090203,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "female_mention_harmless_flagged": 0.011268228015908087,
+      "male_mention_harmless_flagged": 0.01192735158579561,
+      "overall_harmless_flagged": 0.0025286276776360942,
+      "overall_toxic_missed": 0.8187311178247734,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "female_mention_harmless_flagged": 0.007954043305346884,
+      "male_mention_harmless_flagged": 0.00867443751694226,
+      "overall_harmless_flagged": 0.0018784091319582416,
+      "overall_toxic_missed": 0.8420371169615882,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "female_mention_harmless_flagged": 0.003977021652673442,
+      "male_mention_harmless_flagged": 0.005421523448088913,
+      "overall_harmless_flagged": 0.0013365603438933642,
+      "overall_toxic_missed": 0.8675010789814415,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "female_mention_harmless_flagged": 0.0017675651789659744,
+      "male_mention_harmless_flagged": 0.0029818378964489023,
+      "overall_harmless_flagged": 0.0009030813134414623,
+      "overall_toxic_missed": 0.8890807078118257,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "female_mention_harmless_flagged": 0.0013256738842244808,
+      "male_mention_harmless_flagged": 0.002439685551640011,
+      "overall_harmless_flagged": 0.0005418487880648774,
+      "overall_toxic_missed": 0.9050496331463099,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "female_mention_harmless_flagged": 0.0004418912947414936,
+      "male_mention_harmless_flagged": 0.0013553808620222283,
+      "overall_harmless_flagged": 0.00021673951522595093,
+      "overall_toxic_missed": 0.9223133362106172,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "female_mention_harmless_flagged": 0.0002209456473707468,
+      "male_mention_harmless_flagged": 0.000813228517213337,
+      "overall_harmless_flagged": 0.00014449301015063396,
+      "overall_toxic_missed": 0.9382822615451014,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.85,
+      "female_mention_harmless_flagged": 0.0002209456473707468,
+      "male_mention_harmless_flagged": 0.0005421523448088912,
+      "overall_harmless_flagged": 0.0,
+      "overall_toxic_missed": 0.9503668536901165,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.9,
+      "female_mention_harmless_flagged": 0.0,
+      "male_mention_harmless_flagged": 0.0002710761724044456,
+      "overall_harmless_flagged": 0.0,
+      "overall_toxic_missed": 0.9659041864479931,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.95,
+      "female_mention_harmless_flagged": 0.0,
+      "male_mention_harmless_flagged": 0.0,
+      "overall_harmless_flagged": 0.0,
+      "overall_toxic_missed": 0.9766940008631851,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    }
+  ],
+  "bert": [
+    {
+      "threshold": 0.05,
+      "female_mention_harmless_flagged": 0.37030490499337165,
+      "male_mention_harmless_flagged": 0.3868256980211439,
+      "overall_harmless_flagged": 0.17075461474551168,
+      "overall_toxic_missed": 0.10832973672852828,
+      "survivor_flagged": 0.16666666666666666,
+      "subtle_sexism_missed": 0.8333333333333334
+    },
+    {
+      "threshold": 0.1,
+      "female_mention_harmless_flagged": 0.22160848431285904,
+      "male_mention_harmless_flagged": 0.24830577392247222,
+      "overall_harmless_flagged": 0.10251779070187479,
+      "overall_toxic_missed": 0.17220543806646527,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 0.8333333333333334
+    },
+    {
+      "threshold": 0.15,
+      "female_mention_harmless_flagged": 0.15002209456473709,
+      "male_mention_harmless_flagged": 0.17186229330441855,
+      "overall_harmless_flagged": 0.07177690279232742,
+      "overall_toxic_missed": 0.22572291756581786,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "female_mention_harmless_flagged": 0.1137870083959346,
+      "male_mention_harmless_flagged": 0.1282190295473028,
+      "overall_harmless_flagged": 0.054509988079326666,
+      "overall_toxic_missed": 0.26931376780319377,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "female_mention_harmless_flagged": 0.08793636765355722,
+      "male_mention_harmless_flagged": 0.10138248847926268,
+      "overall_harmless_flagged": 0.04425098435863165,
+      "overall_toxic_missed": 0.3072939145446698,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "female_mention_harmless_flagged": 0.06827220503756076,
+      "male_mention_harmless_flagged": 0.0777988614800759,
+      "overall_harmless_flagged": 0.035978759527507856,
+      "overall_toxic_missed": 0.3452740612861459,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "female_mention_harmless_flagged": 0.054352629253203714,
+      "male_mention_harmless_flagged": 0.060992138791000274,
+      "overall_harmless_flagged": 0.029765560091030596,
+      "overall_toxic_missed": 0.38325420802762195,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "female_mention_harmless_flagged": 0.04418912947414936,
+      "male_mention_harmless_flagged": 0.048251558687991324,
+      "overall_harmless_flagged": 0.02398583968500524,
+      "overall_toxic_missed": 0.4113077255071213,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "female_mention_harmless_flagged": 0.03667697746354397,
+      "male_mention_harmless_flagged": 0.03795066413662239,
+      "overall_harmless_flagged": 0.020156774916013438,
+      "overall_toxic_missed": 0.4449719464825205,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "female_mention_harmless_flagged": 0.0273972602739726,
+      "male_mention_harmless_flagged": 0.029818378964489023,
+      "overall_harmless_flagged": 0.01719466820792544,
+      "overall_toxic_missed": 0.47259387138541215,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "female_mention_harmless_flagged": 0.02209456473707468,
+      "male_mention_harmless_flagged": 0.02358362699918677,
+      "overall_harmless_flagged": 0.01459379402521403,
+      "overall_toxic_missed": 0.5015105740181269,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "female_mention_harmless_flagged": 0.015687140963323024,
+      "male_mention_harmless_flagged": 0.016535646516671186,
+      "overall_harmless_flagged": 0.011703933822201352,
+      "overall_toxic_missed": 0.5343116098403108,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "female_mention_harmless_flagged": 0.011931064958020326,
+      "male_mention_harmless_flagged": 0.012198427758200054,
+      "overall_harmless_flagged": 0.00910305963948994,
+      "overall_toxic_missed": 0.5684074233923176,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "female_mention_harmless_flagged": 0.008616880247459125,
+      "male_mention_harmless_flagged": 0.01002981837896449,
+      "overall_harmless_flagged": 0.006971787739768089,
+      "overall_toxic_missed": 0.6042296072507553,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "female_mention_harmless_flagged": 0.006628369421122404,
+      "male_mention_harmless_flagged": 0.006505828137706696,
+      "overall_harmless_flagged": 0.004985008850196872,
+      "overall_toxic_missed": 0.6443677168752697,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "female_mention_harmless_flagged": 0.0041979673000441895,
+      "male_mention_harmless_flagged": 0.003252914068853348,
+      "overall_harmless_flagged": 0.0032149694758516058,
+      "overall_toxic_missed": 0.6978851963746223,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.85,
+      "female_mention_harmless_flagged": 0.0013256738842244808,
+      "male_mention_harmless_flagged": 0.000813228517213337,
+      "overall_harmless_flagged": 0.0014449301015063397,
+      "overall_toxic_missed": 0.760897712559344,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.9,
+      "female_mention_harmless_flagged": 0.0004418912947414936,
+      "male_mention_harmless_flagged": 0.0,
+      "overall_harmless_flagged": 0.0003612325253765849,
+      "overall_toxic_missed": 0.8584376348726802,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.95,
+      "female_mention_harmless_flagged": 0.0,
+      "male_mention_harmless_flagged": 0.0,
+      "overall_harmless_flagged": 0.0,
+      "overall_toxic_missed": 0.9978420371169616,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    }
+  ],
+  "bert_fixed": [
+    {
+      "threshold": 0.05,
+      "female_mention_harmless_flagged": 0.1042863455589925,
+      "male_mention_harmless_flagged": 0.12062889671997831,
+      "overall_harmless_flagged": 0.07123505400426254,
+      "overall_toxic_missed": 0.22054380664652568,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.1,
+      "female_mention_harmless_flagged": 0.05788775961113566,
+      "male_mention_harmless_flagged": 0.06153429113580916,
+      "overall_harmless_flagged": 0.04197521944875916,
+      "overall_toxic_missed": 0.31678895123003886,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.15,
+      "female_mention_harmless_flagged": 0.037560760053026956,
+      "male_mention_harmless_flagged": 0.04201680672268908,
+      "overall_harmless_flagged": 0.030560271646859084,
+      "overall_toxic_missed": 0.37116961588260683,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "female_mention_harmless_flagged": 0.029164825452938577,
+      "male_mention_harmless_flagged": 0.032800216860937925,
+      "overall_harmless_flagged": 0.025503016291586893,
+      "overall_toxic_missed": 0.41001294777729824,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.25,
+      "female_mention_harmless_flagged": 0.021873619089703932,
+      "male_mention_harmless_flagged": 0.02548116020601789,
+      "overall_harmless_flagged": 0.021348842249756167,
+      "overall_toxic_missed": 0.438929650410013,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.3,
+      "female_mention_harmless_flagged": 0.017012814847547502,
+      "male_mention_harmless_flagged": 0.018975332068311195,
+      "overall_harmless_flagged": 0.018639598309431783,
+      "overall_toxic_missed": 0.46266724212343546,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.35,
+      "female_mention_harmless_flagged": 0.013919575784357048,
+      "male_mention_harmless_flagged": 0.015451341827053402,
+      "overall_harmless_flagged": 0.0167973124300112,
+      "overall_toxic_missed": 0.4872680189900734,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "female_mention_harmless_flagged": 0.011931064958020326,
+      "male_mention_harmless_flagged": 0.012740580103008945,
+      "overall_harmless_flagged": 0.014702163782827005,
+      "overall_toxic_missed": 0.49805783340526544,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "female_mention_harmless_flagged": 0.009942554131683606,
+      "male_mention_harmless_flagged": 0.01057197072377338,
+      "overall_harmless_flagged": 0.013221110428783007,
+      "overall_toxic_missed": 0.5183426845058265,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.5,
+      "female_mention_harmless_flagged": 0.0077330976579761375,
+      "male_mention_harmless_flagged": 0.008945513689346707,
+      "overall_harmless_flagged": 0.011559440812050717,
+      "overall_toxic_missed": 0.5364695727233492,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.55,
+      "female_mention_harmless_flagged": 0.007291206363234644,
+      "male_mention_harmless_flagged": 0.007861208999728924,
+      "overall_harmless_flagged": 0.010584112993533937,
+      "overall_toxic_missed": 0.5481225722917565,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.6,
+      "female_mention_harmless_flagged": 0.006628369421122404,
+      "male_mention_harmless_flagged": 0.007047980482515587,
+      "overall_harmless_flagged": 0.009392045659791208,
+      "overall_toxic_missed": 0.5602071644367717,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.65,
+      "female_mention_harmless_flagged": 0.005965532479010163,
+      "male_mention_harmless_flagged": 0.005963675792897805,
+      "overall_harmless_flagged": 0.008777950366651013,
+      "overall_toxic_missed": 0.5770392749244713,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.7,
+      "female_mention_harmless_flagged": 0.004639858594785683,
+      "male_mention_harmless_flagged": 0.0056925996204933585,
+      "overall_harmless_flagged": 0.007622006285445942,
+      "overall_toxic_missed": 0.5943029779887786,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.75,
+      "female_mention_harmless_flagged": 0.003535130357931949,
+      "male_mention_harmless_flagged": 0.00433721875847113,
+      "overall_harmless_flagged": 0.0063938156991655525,
+      "overall_toxic_missed": 0.6132930513595166,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "female_mention_harmless_flagged": 0.0030932390631904553,
+      "male_mention_harmless_flagged": 0.003795066413662239,
+      "overall_harmless_flagged": 0.005562980890799408,
+      "overall_toxic_missed": 0.6322831247302546,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.85,
+      "female_mention_harmless_flagged": 0.002209456473707468,
+      "male_mention_harmless_flagged": 0.0018975332068311196,
+      "overall_harmless_flagged": 0.004334790304519019,
+      "overall_toxic_missed": 0.6633577902460077,
+      "survivor_flagged": 0.08333333333333333,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.9,
+      "female_mention_harmless_flagged": 0.001104728236853734,
+      "male_mention_harmless_flagged": 0.0010843046896177825,
+      "overall_harmless_flagged": 0.002925983455550338,
+      "overall_toxic_missed": 0.7039274924471299,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    },
+    {
+      "threshold": 0.95,
+      "female_mention_harmless_flagged": 0.0004418912947414936,
+      "male_mention_harmless_flagged": 0.0,
+      "overall_harmless_flagged": 0.0006140952931401944,
+      "overall_toxic_missed": 0.8213206732844195,
+      "survivor_flagged": 0.0,
+      "subtle_sexism_missed": 1.0
+    }
+  ]
+}

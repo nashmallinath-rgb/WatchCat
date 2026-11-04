@@ -1,0 +1,4 @@
+artifacts/bert/model.safetensors
+artifacts/bert_fixed/model.safetensors
+__pycache__/
+*.joblib

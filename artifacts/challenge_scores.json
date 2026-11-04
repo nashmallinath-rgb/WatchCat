@@ -1,0 +1,322 @@
+[
+  {
+    "text": "I was harassed by my manager for months and HR did nothing.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.02368147059714411,
+    "bert": 0.01795174553990364,
+    "bert_fixed": 0.0038769266102463007
+  },
+  {
+    "text": "A man followed me home last night and I was terrified.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.0787236718575309,
+    "bert": 0.041423480957746506,
+    "bert_fixed": 0.004991961643099785
+  },
+  {
+    "text": "I'm a woman in tech and I get talked over in every meeting.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.06996006440099058,
+    "bert": 0.014364657923579216,
+    "bert_fixed": 0.0025909794494509697
+  },
+  {
+    "text": "He groped me on the metro and nobody said a word.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.05165471959850145,
+    "bert": 0.020196635276079178,
+    "bert_fixed": 0.006917241960763931
+  },
+  {
+    "text": "As a survivor of domestic abuse, I know how hard it is to leave.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.032079661630943494,
+    "bert": 0.014461764134466648,
+    "bert_fixed": 0.003524340922012925
+  },
+  {
+    "text": "My coworker kept commenting on my body and I finally reported him.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.019342831768195998,
+    "bert": 0.014447852037847042,
+    "bert_fixed": 0.004982269834727049
+  },
+  {
+    "text": "I was told to smile more at work because I'm a girl, and it still makes me angry.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.016602829682873927,
+    "bert": 0.013663130812346935,
+    "bert_fixed": 0.0029694451950490475
+  },
+  {
+    "text": "Women in my family were never allowed to inherit anything, and I'm still fighting that.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.06473896732508508,
+    "bert": 0.012970387004315853,
+    "bert_fixed": 0.003172682598233223
+  },
+  {
+    "text": "I got catcalled on my way to school today and I hate that it's normal.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.06821563607522128,
+    "bert": 0.014813884161412716,
+    "bert_fixed": 0.005876738578081131
+  },
+  {
+    "text": "My ex used to call me worthless every day, and it took years to believe I wasn't.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.032596299798301136,
+    "bert": 0.7589575052261353,
+    "bert_fixed": 0.8941903710365295
+  },
+  {
+    "text": "Sexual harassment at my last job made me quit, and I'm still dealing with it.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.2249503749593476,
+    "bert": 0.0501442514359951,
+    "bert_fixed": 0.015633564442396164
+  },
+  {
+    "text": "I was the only woman on the team and they treated me like an assistant.",
+    "category": "survivor",
+    "expected_flag": 0,
+    "baseline": 0.07630935016807007,
+    "bert": 0.011168811470270157,
+    "bert_fixed": 0.003317971481010318
+  },
+  {
+    "text": "Women are too emotional to be good leaders.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.04000096997994287,
+    "bert": 0.039564553648233414,
+    "bert_fixed": 0.0036499870475381613
+  },
+  {
+    "text": "Girls just aren't wired for math and engineering.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.03937986136020307,
+    "bert": 0.0466814823448658,
+    "bert_fixed": 0.006121281534433365
+  },
+  {
+    "text": "A woman's place is in the kitchen, not the boardroom.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.039052093751208494,
+    "bert": 0.009504081681370735,
+    "bert_fixed": 0.002482276875525713
+  },
+  {
+    "text": "She probably only got the promotion because of how she looks.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.03161241666715227,
+    "bert": 0.010130412876605988,
+    "bert_fixed": 0.0029868432320654392
+  },
+  {
+    "text": "Women should stop complaining about harassment, it's just a compliment.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.0655937232292841,
+    "bert": 0.04514164477586746,
+    "bert_fixed": 0.003899620845913887
+  },
+  {
+    "text": "Honestly men are naturally smarter, that's just science.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.24162011316306267,
+    "bert": 0.02859835885465145,
+    "bert_fixed": 0.004972596652805805
+  },
+  {
+    "text": "No point hiring women, they'll just leave to have kids.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.050384763672351174,
+    "bert": 0.017917344346642494,
+    "bert_fixed": 0.0027846088632941246
+  },
+  {
+    "text": "Female bosses are always difficult, I'd never work for one.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.03443610562149605,
+    "bert": 0.014813884161412716,
+    "bert_fixed": 0.004007288720458746
+  },
+  {
+    "text": "Women drivers are a danger on the road.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.07890961453935019,
+    "bert": 0.1318424493074417,
+    "bert_fixed": 0.02709190361201763
+  },
+  {
+    "text": "She's too bossy, a real woman would be softer.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.06275079825244677,
+    "bert": 0.02391638606786728,
+    "bert_fixed": 0.0035174882505089045
+  },
+  {
+    "text": "Women belong at home raising children, not taking men's jobs.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.07176283751178568,
+    "bert": 0.02673386223614216,
+    "bert_fixed": 0.0030933863017708063
+  },
+  {
+    "text": "Feminists just want attention, nobody is actually being harassed.",
+    "category": "subtle_sexism",
+    "expected_flag": 1,
+    "baseline": 0.14697854819425943,
+    "bert": 0.12683923542499542,
+    "bert_fixed": 0.012053778395056725
+  },
+  {
+    "text": "I'm a proud woman and a software engineer.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.1273081324449143,
+    "bert": 0.013888676650822163,
+    "bert_fixed": 0.002929241629317403
+  },
+  {
+    "text": "My sister is a woman who runs a bakery in the city.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.04668158894127525,
+    "bert": 0.012515856884419918,
+    "bert_fixed": 0.002833849983289838
+  },
+  {
+    "text": "Women's cricket is getting more viewers every year.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.09921433946472663,
+    "bert": 0.011136502027511597,
+    "bert_fixed": 0.005458661820739508
+  },
+  {
+    "text": "The panel had three women and two men talking about climate policy.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.07016584886191733,
+    "bert": 0.00879612099379301,
+    "bert_fixed": 0.0035936026833951473
+  },
+  {
+    "text": "Mothers deserve better parental leave policies.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.03622686097209847,
+    "bert": 0.012710447423160076,
+    "bert_fixed": 0.003692853031679988
+  },
+  {
+    "text": "He is a father of two and coaches girls' football.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.07508766912349558,
+    "bert": 0.023153413087129593,
+    "bert_fixed": 0.011331754736602306
+  },
+  {
+    "text": "Our new CTO is a woman, and the team is excited.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.10194090029032062,
+    "bert": 0.012100386433303356,
+    "bert_fixed": 0.002448652870953083
+  },
+  {
+    "text": "Men's mental health deserves more attention too.",
+    "category": "identity_neutral",
+    "expected_flag": 0,
+    "baseline": 0.11761797429276251,
+    "bert": 0.01662507839500904,
+    "bert_fixed": 0.004895880818367004
+  },
+  {
+    "text": "You are a worthless idiot and everyone hates you.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.953057052541056,
+    "bert": 0.9499486684799194,
+    "bert_fixed": 0.9708263874053955
+  },
+  {
+    "text": "Shut up, you stupid idiot, nobody wants your opinion.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.9997649333848816,
+    "bert": 0.9527941942214966,
+    "bert_fixed": 0.9709643721580505
+  },
+  {
+    "text": "I hope you get fired, you pathetic loser.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.9857623088060677,
+    "bert": 0.9425595998764038,
+    "bert_fixed": 0.9700134992599487
+  },
+  {
+    "text": "Go away, you disgusting moron.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.9782228692689358,
+    "bert": 0.9488224983215332,
+    "bert_fixed": 0.9712656736373901
+  },
+  {
+    "text": "You're a complete waste of space.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.31596121495477264,
+    "bert": 0.5250168442726135,
+    "bert_fixed": 0.5715648531913757
+  },
+  {
+    "text": "What a dumb useless clown.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.9993809253322734,
+    "bert": 0.9523531198501587,
+    "bert_fixed": 0.9713745713233948
+  },
+  {
+    "text": "Nobody likes you, you pathetic freak.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.9516017128414576,
+    "bert": 0.9462003111839294,
+    "bert_fixed": 0.9708817005157471
+  },
+  {
+    "text": "You are trash and so is everything you write.",
+    "category": "overt_abuse",
+    "expected_flag": 1,
+    "baseline": 0.27205433178615107,
+    "bert": 0.8738082647323608,
+    "bert_fixed": 0.9640178084373474
+  }
+]
